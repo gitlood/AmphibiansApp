@@ -6,5 +6,5 @@ import retrofit2.http.GET
 interface AmphibianApi {
 
     @GET
-    suspend fun getLatestListing(): JsonObject
+    suspend fun fetchAmphibianData(): JsonObject
 }
