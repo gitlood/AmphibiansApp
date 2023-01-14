@@ -5,6 +5,6 @@ import retrofit2.http.GET
 
 interface AmphibianApi {
 
-    @GET
+    @GET("amphibians")
     suspend fun fetchAmphibianData(): JsonArray
 }
